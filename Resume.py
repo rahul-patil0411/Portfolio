@@ -64,83 +64,84 @@ st.subheader("Professional Experience")
 st.write("**Symbiosis Skills and Professional University - Data Science Trainer**")
 st.write("""
 Key Note: All Practical and Skill conducted in below 4 subjects are advanced up to industry standards.
+
 **1) Big Data Architecture and Ecosystem**
-• Proven experience as an Assistant Professor specializing in Big Data, with in-depth knowledge of key technologies
+- Proven experience as an Assistant Professor specializing in Big Data, with in-depth knowledge of key technologies
 such as Hadoop, Pig, Hive, and AWS. Proficient in teaching both theoretical concepts and practical applications of
 these tools to students.
-• Designed and delivered a comprehensive curriculum encompassing essential topics in Big Data, including Hadoop
+- Designed and delivered a comprehensive curriculum encompassing essential topics in Big Data, including Hadoop
 Administration, MapReduce Programming, Machine Learning, Data Analysis, and API integration. Ensured students
 receive a well-rounded education in the field, preparing them for real-world challenges.
-• Integrated Project Management principles into the curriculum, guiding students through practical project
+- Integrated Project Management principles into the curriculum, guiding students through practical project
 implementations. Specialized in teaching Predictive Modeling techniques, emphasizing the application of Machine
 Learning for data-driven decision-making.
-• Instructed students in the principles of Data Visualization, emphasizing effective communication of insights
+- Instructed students in the principles of Data Visualization, emphasizing effective communication of insights
 derived from Big Data analysis. Additionally, provided hands-on training in Extract, Transform, Load (ETL) processes,
 enhancing students' skills in preparing and transforming data for analysis.
          
 **2) Evolutionary Computation**
-• Proven experience as an Assistant Professor specializing in Evolutionary Computation, with in-depth knowledge of
+- Proven experience as an Assistant Professor specializing in Evolutionary Computation, with in-depth knowledge of
 key topics such as Genetic Algorithms, Artificial Immune Systems, and Quantum Genetic Algorithms. Proficient in
 teaching both theoretical concepts and practical applications of these algorithms to students.
-• Designed and delivered a comprehensive curriculum encompassing essential topics in evolutionary computation,
+- Designed and delivered a comprehensive curriculum encompassing essential topics in evolutionary computation,
 including Genetic Operators (selection, crossover, mutation), Multi-objective Optimization, and performance
 indicators such as Generational Distance and Hypervolume. Prepared students to tackle real-world challenges using
 these advanced techniques.
-• Integrated Optimization Problems into the curriculum, covering NP-complete problems and various Vehicle
+- Integrated Optimization Problems into the curriculum, covering NP-complete problems and various Vehicle
 Routing Problem (VRP) variants. Guided students through practical implementations and integer programming
 formulations for complex optimization scenarios.
-• Instructed students in modern Computing Paradigms such as Cluster, Grid, and Cloud Computing, as well as
+- Instructed students in modern Computing Paradigms such as Cluster, Grid, and Cloud Computing, as well as
 emerging technologies like the Internet of Things (IoT) and Fog Computing. Emphasized key issues including
 security, scalability, and energy consumption, preparing students for the evolving landscape of computational
 technologies.
          
 **3) Internet and Web Technologies**
-• Proven experience as an Assistant Professor specializing in Internet and Web Technologies, with comprehensive
+- Proven experience as an Assistant Professor specializing in Internet and Web Technologies, with comprehensive
 knowledge of key web technologies and programming languages. Proficient in teaching both theoretical concepts
 and practical applications to students.
-• Designed and delivered a detailed curriculum covering essential Web Essentials topics such as HTTP protocols,
+- Designed and delivered a detailed curriculum covering essential Web Essentials topics such as HTTP protocols,
 HTML5, CSS, and XHTML, ensuring students understand both the fundamentals and advanced features of web
 development.
-• Taught JavaScript client-side scripting, including variables, functions, conditions, loops, and events, enabling
+- Taught JavaScript client-side scripting, including variables, functions, conditions, loops, and events, enabling
 students to create dynamic and interactive web pages by integrating HTML, CSS, and JavaScript.
-• Delivered lessons on XML, including its components, DTD and Schemas, and transformations using XSLT, providing
+- Delivered lessons on XML, including its components, DTD and Schemas, and transformations using XSLT, providing
 students with skills to effectively use XML in web applications.
-• Guided students through PHP Programming, covering script creation, variables, constants, data types, control
+- Guided students through PHP Programming, covering script creation, variables, constants, data types, control
 structures, arrays, functions, and working with MySQL databases, preparing them for backend web development.
-• Introduced PERL and Ruby, teaching fundamental concepts such as variables, arrays, hashes, regular expressions,
+- Introduced PERL and Ruby, teaching fundamental concepts such as variables, arrays, hashes, regular expressions,
 and control structures, along with practical applications in file handling and web document retrieval for PERL, and an
 overview of Ruby on Rails for Ruby.
          
 **4) R programming**
-• Proven experience as an Assistant Professor specializing in R Programming, with in-depth knowledge of both
+- Proven experience as an Assistant Professor specializing in R Programming, with in-depth knowledge of both
 fundamental and advanced R concepts. Proficient in teaching theoretical and practical applications of R
 programming to students.
-• Designed and delivered a comprehensive curriculum covering essential R Programming topics, including
+- Designed and delivered a comprehensive curriculum covering essential R Programming topics, including
 installation, data types, control structures (if, if…else, switch statements), and various loops (repeat, while, for).
 Provided practical training on using built-in and user-defined functions.
-• Taught students String and Vector Manipulation, including constructing and manipulating strings, vectors, lists,
+- Taught students String and Vector Manipulation, including constructing and manipulating strings, vectors, lists,
 matrices, arrays, factors, and data frames. Introduced students to various R packages to enhance their programming
 capabilities.
-• Delivered lessons on R Data Interfaces, teaching how to input, read, and analyse data from CSV, Excel, binary, and
+- Delivered lessons on R Data Interfaces, teaching how to input, read, and analyse data from CSV, Excel, binary, and
 XML files, ensuring students are equipped to handle diverse data sources.
-• Instructed students in creating R Charts and Graphs, including pie charts, bar charts, box plots, histograms, line
+- Instructed students in creating R Charts and Graphs, including pie charts, bar charts, box plots, histograms, line
 charts, scatter plots, and matrix plots. Emphasized the importance of data visualization in data analysis.
-• Covered R Statistics extensively, teaching measures of central tendency and dispersion, linear regression, multiple
+- Covered R Statistics extensively, teaching measures of central tendency and dispersion, linear regression, multiple
 linear regression, logistic regression, probability computation, and hypothesis testing. Prepared students to perform
 comprehensive statistical analysis using R.
 """)
 
 st.write("**Parenthesis Systems PVT. LTD. - Data Scientist Intern**")
 st.write("""
-• Developed and implemented an automated Python program for handling raw data, optimizing the conversion of raw data
+- Developed and implemented an automated Python program for handling raw data, optimizing the conversion of raw data
 into formatted datasets.
-• Acquired practical experience with advanced technologies, including fuzzy logics and AWS API services, showcasing a
+- Acquired practical experience with advanced technologies, including fuzzy logics and AWS API services, showcasing a
 versatile skill set in data science.
-• Monitored and analyzed Parametric Evaluation data for heat treatment furnaces using HuMac, applying various algorithms
+- Monitored and analyzed Parametric Evaluation data for heat treatment furnaces using HuMac, applying various algorithms
 to predict trends and contribute to data-driven decision-making.
-• Gained in-depth knowledge in the domain of heat treatment furnaces, understanding the unique challenges and
+- Gained in-depth knowledge in the domain of heat treatment furnaces, understanding the unique challenges and
 requirements of industrial processes.
-• Suggested and implemented changes in raw data structures, improving data quality for more effective analysis.
+- Suggested and implemented changes in raw data structures, improving data quality for more effective analysis.
 Collaborated with the team to enhance overall data processing capabilities
 """)
 
