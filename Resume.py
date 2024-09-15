@@ -5,39 +5,6 @@ import requests
 
 st.set_page_config(page_title='Rahul Patil - Data Scientist', page_icon=':office:', layout='wide')
 
-# MongoDB connection setup
-def init_connection():
-    try:
-        client = MongoClient(st.secrets['uri']['uri'])
-        return client
-    except Exception as e:
-        st.error(f"Could not connect to MongoDB: {e}")
-        return None
-
-# Initialize the MongoDB connection
-client = init_connection()
-
-if client:
-    db = client[st.secrets['uri']['db']]
-    contact_collection = db[st.secrets['uri']['collection']]
-else:
-    contact_collection = None
-
-# Function to insert data into MongoDB
-def add_data_to_mongo(name, email, message):
-    if contact_collection is not None:  # Compare explicitly with None
-        contact = {
-            "name": name,
-            "email": email,
-            "message": message
-        }
-        try:
-            contact_collection.insert_one(contact)
-            st.success("Data successfully inserted into MongoDB!")
-        except Exception as e:
-            st.error(f"An error occurred: {e}")
-    else:
-        st.error("No MongoDB connection available.")
 
 
 
@@ -162,20 +129,6 @@ st.write("""
 - Built a dynamic e-commerce website with essential features such as product catalog, shopping cart, secure checkout, and showcased skills in database management and user authentication.
 """)
 
-# Contact Me Form
-st.subheader("Contact Me")
-
-with st.form(key='contact_form'):
-    name = st.text_input("Name")
-    email = st.text_input("Email")
-    message = st.text_area("Message")
-    submit_button = st.form_submit_button(label='Submit')
-
-if submit_button:
-    if name and email and message:
-        add_data_to_mongo(name, email, message)
-    else:
-        st.error("Please fill out all fields.")
 
 
 # Footer
