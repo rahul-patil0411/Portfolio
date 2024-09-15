@@ -26,11 +26,11 @@ def load_lottie(url: str):
 with col1:
     st.subheader("Contact Information")
     st.write("""
-    **Email:** kaumil09@gmail.com  
-    **Phone:** 6354162751  
-    **Portfolio:** [Kaumil-mg](https://kaumil-mg.github.io/Portfolio-web)  
-    **LinkedIn:** [Kaumilmg](https://www.linkedin.com/in/kaumilmg/)  
-    **GitHub:** [Kaumil-mg](https://github.com/kaumil-mg)
+    **Email:** rahul.datascientist.04@gmail.com  
+    **Phone:** 9552328154
+    **Portfolio:** [Rahul-Patil](rahulpatil.streamlit.app)  
+    **LinkedIn:** [Rahul-Patil](https://www.linkedin.com/in/rahul-patil-1a7930188/)  
+    **GitHub:** [Rahul-Patil](https://github.com/rahul-patil0411)
     """)
 with col3:
     lottie_hello = load_lottie('https://lottie.host/03f63272-ebfd-421f-a05d-d5a115ea834d/MNRX76Zr4S.json')
@@ -50,8 +50,11 @@ with col3:
 # Profile
 st.subheader("Profile")
 st.write("""
-Data Scientist with Let's Enkindle and over 4 years of experience in extracting, analyzing, predicting, and visualizing data to drive business decisions. Proficient in Power BI, SQL, Python, and Tableau, with a proven track record of building data pipelines, performing statistical analysis, and creating interactive dashboards. Adept at working with large datasets, identifying trends, and delivering actionable insights.
-""")
+A Results-driven professional with a strong foundation as an Assistant Professor specializing in Big Data, exhibiting
+proficiency in Hadoop, Pig, Hive, AWS, and advanced Python programming. Adept at designing and delivering
+comprehensive curriculum covering Big Data concepts, Machine Learning, and Predictive Modelling. Seeking a transition to a
+data engineer role, equipped with skills in ETL, data integration, and expertise in managing and optimizing raw data through
+automation, coupled with practical experience in advanced technologies and Parametric Evaluation data analysis.""")
 
 # Professional Experience
 st.subheader("Professional Experience")
