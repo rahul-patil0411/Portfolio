@@ -56,16 +56,7 @@ comprehensive curriculum covering Big Data concepts, Machine Learning, and Predi
 data engineer role, equipped with skills in ETL, data integration, and expertise in managing and optimizing raw data through
 automation, coupled with practical experience in advanced technologies and Parametric Evaluation data analysis.""")
 
-# IT Skills
-st.subheader("IT Skills")
-st.write("**• SQL • Python • Power BI• Apache • Hadoop • Pig • Hive • AWS • API • TensorFlow • Scikit-Learn • Advance MS Excel
-• Microsoft Office**")
 
-# Key Skills
-st.subheader("Key Skills")
-st.write("• Big Data Analysis • Hadoop Administration • MapReduce Programming • Machine Learning • Data Analysis • Fuzzy Logics
-• Project Management • Stakeholder Collaboration • Predictive Modelling • Data Visualization • ETL • Artificial Intelligence
-• Data Modelling • Data Integration • Deep Learning • Algorithms Hybrid Models")
 
 # Professional Experience
 st.subheader("Professional Experience")
