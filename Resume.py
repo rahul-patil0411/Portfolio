@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from streamlit_lottie import st_lottie
 import requests
 
-st.set_page_config(page_title='Kaumil Mistry - Data Scientist', page_icon="⚛️", layout='wide')
+st.set_page_config(page_title='Rahul Patil - Data Scientist', page_icon=':office:', layout='wide')
 
 # MongoDB connection setup
 def init_connection():
@@ -45,7 +45,7 @@ col1, col2, col3 = st.columns((3))
 
 # Set the title and header
 with col1:
-    st.title("Rahul Patil - Data Scientist")
+    st.title("Kaumil Mistry - Data Scientist")
 
 # load animation 
 def load_lottie(url: str):
@@ -59,9 +59,8 @@ def load_lottie(url: str):
 with col1:
     st.subheader("Contact Information")
     st.write("""
-    **Email:** rahul.datascientist.04@gmail.com  
-    **Phone:** 9552328154
-               
+    **Email:** kaumil09@gmail.com  
+    **Phone:** 6354162751  
     **Portfolio:** [Kaumil-mg](https://kaumil-mg.github.io/Portfolio-web)  
     **LinkedIn:** [Kaumilmg](https://www.linkedin.com/in/kaumilmg/)  
     **GitHub:** [Kaumil-mg](https://github.com/kaumil-mg)
