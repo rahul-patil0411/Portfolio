@@ -45,7 +45,7 @@ col1, col2, col3 = st.columns((3))
 
 # Set the title and header
 with col1:
-    st.title("Kaumil Mistry - Data Scientist")
+    st.title("Rahul Patil - Data Scientist")
 
 # load animation 
 def load_lottie(url: str):
