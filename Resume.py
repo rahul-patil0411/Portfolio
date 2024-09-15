@@ -145,19 +145,6 @@ requirements of industrial processes.
 Collaborated with the team to enhance overall data processing capabilities
 """)
 
-st.write("**Parentheses System PVT. LTD. - Intern Data Analyst**")
-st.write("""
-- Skilled in using Python (Pandas, NumPy) for data analysis, and creating impactful data visualizations using Matplotlib and Seaborn.
-- Develop ETL pipelines and collaborate with cross-functional teams to deliver data-driven insights.
-- Present complex analytical findings to business teams and bridge the gap between technical and non-technical stakeholders.
-""")
-
-st.write("**Dotmg Studio - Web Developer and Digital Marketer**")
-st.write("""
-- Increased website traffic by 25% through data-driven SEO initiatives.
-- Developed visually appealing websites using frontend technologies like HTML, CSS, JS, and Django.
-- Created robust web applications using backend technologies such as PHP, SQL, DBMS, and PostgreSQL.
-""")
 
 # Education
 st.subheader("Education")
@@ -168,43 +155,54 @@ st.write("**B.Sc. CS** - PCCCS (2018-2021) Pune")
 # Skills
 st.subheader("Skills")
 st.write("""
-- **Data Analyst:** Power BI, Tableau, AWS Glue, ETL, Python (Matplotlib, Seaborn, Plotly)
+- **Data Analyst:** Power BI, ETL, Python (Matplotlib, Seaborn, Plotly,Scikit-Learn)
 - **Data Mining:** SQL, NoSQL, MongoDB, Cloud extraction, PostgreSQL
 - **Cloud Computing:** AWS, GCP, Azure
-- **Web Development:** HTML, CSS, Django, Bootstrap, SQL, DBMS, JavaScript, PHP
+- **Web Development:** HTML, CSS, SQL, DBMS, JavaScript, PHP
 - **Documentation:** Excel, Word, PowerPoint
 - **DevOps:** Git, GitHub, Docker, Unix
+- **KEY SKILLS:** Big Data Analysis, Hadoop Administration, MapReduce Programming, Machine Learning, Data Analysis, Fuzzy Logics, Project Management, Stakeholder Collaboration, Predictive Modelling, Data Visualization, ETL, Artificial Intelligence, Data Modelling, Data Integration, Deep Learning, Algorithms Hybrid Models
+
 """)
 
 # Certifications
 st.subheader("Certifications")
 st.write("""
-- **Data Science Master** - Physics Wallah
-- **Build a Data Science Web App with Streamlit and Python** - Coursera
-- **Data Analytics Part 2: Extending and Applying Core Knowledge**
+- **Basic and Advanced Python** - BM Academy
 """)
 
 # Projects
 st.subheader("Projects")
 
-st.write("[**Data Visualization - Power BI**](https://linktr.ee/Kaumilmg)")
+st.write("[**Model Deployment**]")
 st.write("""
-- Conducted in-depth analysis across different fields using Power BI for data visualization.
-- Strong grasp of live data, SQL, Python, and various dataset formats such as JSON, CSV, Excel, and SQL.
-- Utilized Python packages like pandas, numpy, matplotlib, seaborn, and plotly for visualization.
-""")
+- Developed and deployed a time series prediction model leveraging Gated Recurrent Units (GRU) within a deep learning
+framework. The model demonstrated superior performance in capturing temporal dependencies within sequential data,
+leading to more accurate predictions compared to traditional models.
+- Designed and deployed a cutting-edge hybrid model combining sequential neural networks with diverse data modalities.
+Integrated GRU layers for sequential data processing and effectively fused information from multiple sources, achieving a
+holistic understanding of complex datasets. The resulting model outperformed single-modal counterparts, showcasing
+enhanced predictive capabilities and robust generalization across varied data types.""")
 
-st.write("[**Flipkart Product Review Using Python - AWS (Code pipeline, Beanstalk), MongoDB**](https://github.com/kaumil-mg/web-scrap)")
+st.write("[**Sentimental Analysis**]")
 st.write("""
-- Web scraped product reviews using BeautifulSoup and Selenium, stored data in MongoDB, and automated deployment with AWS services.
-""")
+- Applied machine learning and deep learning to classify positive and negative feedback in an airline dataset. After testing
+various algorithms, Random Forest was the most effective, achieving high accuracy in sentiment prediction.
+- Fine-tuned Random Forest for sentiment analysis on airline reviews. Improved model accuracy through parameter tuning,
+making it a reliable tool for distinguishing positive and negative sentiments in customer feedback.""")
 
-st.write("[**E-commerce Website - HTML & CSS, PHP, JS**](https://www.youtube.com/watch?v=6TDlgTe8gEQ)")
+st.write("[**Video/Image Classification**]")
 st.write("""
-- Built a dynamic e-commerce website with essential features such as product catalog, shopping cart, secure checkout, and showcased skills in database management and user authentication.
-""")
+- Led a group mini project focused on image and video classification, successfully implementing robust models for
+identifying objects in both static images and dynamic car dashcam footage. Achieved accurate image classification for
+common objects like persons, while extending the capability to video classification, enabling real-time recognition of traffic
+signals, bikes, cars, and pedestrians.
+- Spearheaded the development of an image and video classification system leveraging deep learning algorithms. Trained
+the model to recognize and classify diverse objects in car dashcam videos, enhancing road safety by accurately identifying
+and categorizing traffic signals, bikes, cars, and pedestrians. The project showcased effective teamwork, technical expertise,
+and practical computer vision application in a real-world context.""")
 
 
 
 # Footer
-st.write("For more details, visit my [LinkedIn](https://www.linkedin.com/in/kaumilmg/) or [GitHub](https://github.com/kaumil-mg).")
+st.write("For more details, visit my [LinkedIn](https://www.linkedin.com/in/rahul-patil-1a7930188/) or [GitHub](https://github.com/rahul-patil0411).")
